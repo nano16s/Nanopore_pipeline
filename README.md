@@ -21,6 +21,7 @@ The workflow is **configurable, containerized (Conda environments auto-managed)*
 Install snakemake (if not installed already):
 ```bash
 conda install -c bioconda -c conda-forge snakemake
+```
 🚀 Usage
 Clone this repo:
 
