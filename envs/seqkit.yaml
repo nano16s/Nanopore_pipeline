@@ -1,0 +1,5 @@
+name: seqkit-env
+channels: [bioconda, conda-forge, defaults]
+dependencies:
+  - seqkit
+  - pigz

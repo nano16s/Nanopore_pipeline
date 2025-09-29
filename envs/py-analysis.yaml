@@ -1,0 +1,12 @@
+name: py-analysis
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-bio
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - umap-learn
+  - matplotlib-venn

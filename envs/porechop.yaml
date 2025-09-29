@@ -1,0 +1,5 @@
+name: porechop-env
+channels: [bioconda, conda-forge, defaults]
+dependencies:
+  - porechop
+  - pigz

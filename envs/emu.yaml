@@ -1,0 +1,7 @@
+name: emu-env
+channels: [bioconda, conda-forge, defaults]
+dependencies:
+  - emu=3.*
+  - minimap2
+  - pigz
+

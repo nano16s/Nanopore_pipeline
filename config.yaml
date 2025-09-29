@@ -1,0 +1,32 @@
+raw_dir: "raw"
+filtered_dir: "results/filtered"
+trimmed_dir: "results/trimmed"
+emu_dir: "results/emu"
+combined_dir: "results/combined"
+analysis_dir: "results/analysis"
+candidates_dir: "results/candidates"
+
+emu_db: "/home/ayesha/emu_database/emu_built"
+samples_glob: "raw/barcode*.fastq.gz"
+
+length_min: 1200
+length_max: 1700
+threads: 6
+
+genus_metadata: "metadata/genus_metadata_full.tsv"
+species_metadata: "metadata/species_metadata_full.tsv"
+
+core_abundance_threshold: 0.0001
+core_prevalence_cutoff: 0.3
+
+trend_p: 0.05
+trend_abs_log2fc: 1.0
+
+year_tags: ["2024", "2025"]
+
+emu_combined_genus:
+  "2024": "results/combined/EMU_2024_genus.tsv"
+  "2025": "results/combined/EMU_2025_genus.tsv"
+emu_combined_species:
+  "2024": "results/combined/EMU_2024_species.tsv"
+  "2025": "results/combined/EMU_2025_species.tsv"
